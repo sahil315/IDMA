@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!--FOnt-->
+  <script src="https://use.fontawesome.com/63a5871935.js"></script>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--Style-->
+  <link rel="stylesheet" href="Styles/style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <title>Imda</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="nav">
+        <div class="logo-container">
+          <a class="logo" href="/index.html"><img alt="logo"></a>
+        </div>
+
+        <div class="nav-link" id="topNav">
+          <a href="Assets/about-us.html">About us</a>
+
+
+          <div class="dropdown-container" id="dropdown1">
+            <a href="Assets/membership.html">Membership </a>
+
+            <div class="dropdown-content">
+
+              <div class="row-nav">
+                <div class="column-4">
+                  <a href="#">Corporate</a>
+
+                </div>
+                <div class="column-4">
+                  <a href="#">Educational Organizations</a>
+
+                </div>
+                <div class="column-4">
+                  <a href="#">Freelancers</a>
+
+                </div>
+                <div class="column-4">
+                  <a href="#">Agenies</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown-container" id="dropdown2">
+            <a href="Assets/events.html">Events
+            </a>
+
+            <div class="dropdown-content">
+
+              <div class="row-nav">
+                <div class="column-3">
+                  <a href="#">Summit</a>
+
+                </div>
+                <div class="column-3">
+                  <a href="#">Bootcamp</a>
+
+                </div>
+                <div class="column-3">
+                  <a href="#">Webinar</a>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <a href="Assets/Training-and-education.html ">Training & Education</a>
+          <a href="Assets/certification.html">Agency Certification</a>
+          <a href="Assets/awards.html">Awards</a>
+          <a href="#">Partnership Opportunities</a>
+          <a href="Assets/contact-us.html">Contact us</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()" >
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+        <script>
+function myFunction() {
+          var x = document.getElementById("topNav");
+          var y = document.getElementById("dropdown1");
+          var z = document.getElementById("dropdown2");
+
+          if (x.className === "nav-link" && y.className === "dropdown-container" && z.className === "dropdown-container")  {
+            x.className += " responsive";
+            y.className += " responsive";
+            z.className += " responsive";
+          } else {
+            x.className = "nav-link";
+            y.className = "dropdown-container";
+            z.className = "dropdown-container";
+          }
+        
+
+
+        }
+
+
+
+
+        </script>
+        
+
+      </div>
+    </div>
+    <!--carousel-->
+    <div class="row">
+
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Resources/la.jpg" alt="Los Angeles" width="100%" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="Resources/chicago.jpg" alt="Chicago" width="100%" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="Resources/ny.jpg" alt="New York" width="100%" height="500">
+          </div>
+        </div>
+
+        <!-- Left and right controls 
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a> -->
+
+      </div>
+    </div>
+    <!--News-->
+    <div class="news">
+      <h2>News</h2>
+      <div class="row">
+        <div class="card-container">
+          <div class="col-md-3">
+            <div class="news-card">
+              <a href="#"><img src="Resources/chicago.jpg" alt="Avatar" style="width:100%"></a>
+              <div class="news-card-container">
+                <p> News</p>
+                <h5><a href="#">Sub news</a></h5>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="news-card">
+              <a href="#"><img src="Resources/chicago.jpg" alt="Avatar" style="width:100%"></a>
+              <div class="news-card-container">
+                <p> News</p>
+                <h5><a href="#">Sub news</a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="news-card">
+              <a href="#"><img src="Resources/chicago.jpg" alt="Avatar" style="width:100%"></a>
+              <div class="news-card-container">
+                <p> News</p>
+                <h5><a href="#">Sub news</a></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--Events-->
+    <div class="events">
+      <h2>Events</h2>
+      <div class="row">
+        <div class="card-container">
+          <div class="col-md-3">
+            <div class="events-card">
+              <a href="#"><img src="Resources/chicago.jpg" alt="Avatar" style="width:100%"></a>
+              <div class="events-card-container">
+                <p> Events</p>
+                <h5><a href="#">Events Captions</a></h5>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="events-card">
+              <a href="#"><img src="Resources/chicago.jpg" alt="Avatar" style="width:100%"></a>
+              <div class="events-card-container">
+                <p> Events</p>
+                <h5><a href="#">Events Captions</a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="events-card">
+              <a href="#"><img src="Resources/chicago.jpg" alt="Avatar" style="width:100%"></a>
+              <div class="events-card-container">
+                <p> Events</p>
+                <h5><a href="#">Events Captions</a></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--Marketing-->
+
+    <div class="marketing">
+      <div class="row" style="background-color: #F7F7F7;">
+        <div class="marketing-header">
+          <h3>Why Join IDMA ?</h3>
+        </div>
+      </div>
+      <div class="row" style="padding: 10px 120px; background-color: #F7F7F7;">
+        <div class="marketing-container">
+          <div class="box box1">
+            <div class="box1-content box-content">
+              <h5>marketing</h5>
+              <p>marketing Caption </p>
+            </div>
+          </div>
+          <div class="box box2">
+            <div class="box2-content box-content">
+              <h5>marketing</h5>
+              <p>marketing Caption </p>
+            </div>
+          </div>
+          <div class=" box box3">
+            <div class="box3-content box-content">
+              <h5>marketing</h5>
+              <p>marketing Caption </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="background-color: #F7F7F7;">
+        <div class="marketing-footer">
+          <h3>Full details about the Marketing team of IDMA ! <a href="#">here</a></h3>
+        </div>
+      </div>
+    </div>
+
+    <!--Experience-->
+    <div class="experience">
+      <div class="row">
+        <div class="experience-header">
+          <h3>IMA Past Experience</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3" style="padding-right: 5px;padding-left: 5px;">
+          <div class="image-container">
+            <a href="#" class="image-head"><img class="exp-img" style="width: 100%; margin-bottom: 10px;"
+                src="Resources/chicago.jpg"></a>
+
+          </div>
+        </div>
+        <div class="col-md-3" style="padding-right: 5px;padding-left: 5px;">
+          <div class="image-container">
+            <a href="#" class="image-head"><img class="exp-img" style="width: 100%; margin-bottom: 10px;"
+                src="Resources/chicago.jpg"></a>
+
+          </div>
+        </div>
+        <div class="col-md-3" style="padding-right: 5px;padding-left: 5px;">
+          <div class="image-container">
+            <a href="#" class="image-head"><img class="exp-img" style="width: 100%; margin-bottom: 10px;"
+                src="Resources/chicago.jpg"></a>
+
+          </div>
+        </div>
+        <div class="col-md-3" style="padding-right: 5px;padding-left: 5px;">
+          <div class="image-container">
+            <a href="#" class="image-head"><img class="exp-img" style="width: 100%; margin-bottom: 10px;"
+                src="Resources/chicago.jpg"></a>
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3" style="padding-right: 5px;padding-left: 5px;">
+          <div class="image-container">
+            <a href="#" class="image-head"><img class="exp-img" style="width: 100%; margin-bottom: 10px;"
+                src="Resources/chicago.jpg"></a>
+
+          </div>
+        </div>
+        <div class="col-md-3" style="padding-right: 5px;padding-left: 5px;">
+          <div class="image-container">
+            <a href="#" class="image-head"><img class="exp-img" style="width: 100%; margin-bottom: 10px;"
+                src="Resources/chicago.jpg"></a>
+
+          </div>
+        </div>
+        <div class="col-md-3" style="padding-right: 5px;padding-left: 5px;">
+          <div class="image-container">
+            <a href="#" class="image-head"><img class="exp-img" style="width: 100%; margin-bottom: 10px;"
+                src="Resources/chicago.jpg"></a>
+
+          </div>
+        </div>
+        <div class="col-md-3" style="padding-right: 5px;padding-left: 5px;">
+          <div class="image-container">
+            <a href="#" class="image-head"><img class="exp-img" style="width: 100%; margin-bottom: 10px;"
+                src="Resources/chicago.jpg"></a>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row "  id ="more-exp1" style="display: none;">
+        <div class="col-md-3" style="padding-right: 5px;padding-left: 5px;">
+          <div class="image-container">
+            <a href="#" class="image-head"><img class="exp-img" style="width: 100%; margin-bottom: 10px;"
+                src="Resources/chicago.jpg"></a>
+
+          </div>
+        </div>
+        <div class="col-md-3" style="padding-right: 5px;padding-left: 5px;">
+          <div class="image-container">
+            <a href="#" class="image-head"><img class="exp-img" style="width: 100%; margin-bottom: 10px;"
+                src="Resources/chicago.jpg"></a>
+
+          </div>
+        </div>
+        <div class="col-md-3" style="padding-right: 5px;padding-left: 5px;">
+          <div class="image-container">
+            <a href="#" class="image-head"><img class="exp-img" style="width: 100%; margin-bottom: 10px;"
+                src="Resources/chicago.jpg"></a>
+
+          </div>
+        </div>
+        <div class="col-md-3" style="padding-right: 5px;padding-left: 5px;">
+          <div class="image-container">
+            <a href="#" class="image-head"><img class="exp-img" style="width: 100%; margin-bottom: 10px;"
+                src="Resources/chicago.jpg"></a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id ="more-exp2" style="display: none;" >
+        <div class="col-md-3" style="padding-right: 5px;padding-left: 5px;">
+          <div class="image-container">
+            <a href="#" class="image-head"><img class="exp-img" style="width: 100%; margin-bottom: 10px;"
+                src="Resources/chicago.jpg"></a>
+
+          </div>
+        </div>
+        <div class="col-md-3" style="padding-right: 5px;padding-left: 5px;">
+          <div class="image-container">
+            <a href="#" class="image-head"><img class="exp-img" style="width: 100%; margin-bottom: 10px;"
+                src="Resources/chicago.jpg"></a>
+
+          </div>
+        </div>
+        <div class="col-md-3" style="padding-right: 5px;padding-left: 5px;">
+          <div class="image-container">
+            <a href="#" class="image-head"><img class="exp-img" style="width: 100%; margin-bottom: 10px;"
+                src="Resources/chicago.jpg"></a>
+
+          </div>
+        </div>
+        <div class="col-md-3" style="padding-right: 5px;padding-left: 5px;">
+          <div class="image-container">
+            <a href="#" class="image-head"><img class="exp-img" style="width: 100%; margin-bottom: 10px;"
+                src="Resources/chicago.jpg"></a>
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="experience-btn" onclick="show()" >
+          <a  href="#a" id="exp-btn">View Other Experiences</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      function show() {
+        
+        var moreRow1 = document.getElementById("more-exp1");
+        var moreRow2 = document.getElementById("more-exp2");
+var expBtn = document.getElementById('exp-btn');
+  
+          if(moreRow1.style.display === 'none' && moreRow2.style.display === 'none'){
+            
+            moreRow1.style.display = 'flex';
+            moreRow2.style.display = 'flex';
+            expBtn.innerHTML = 'Hide Other Experiences';
+
+        }else{
+          moreRow1.style.display = 'none';
+            moreRow2.style.display = 'none';
+            expBtn.innerHTML = 'View Other Experiences';
+        }
+
+
+      }
+
+    </script>
+
+
+    <!--Footer-->
+    <div class="row">
+      <footer>
+        <div class="row" style="margin-left: 0px;margin-right: 0px;">
+          <div class="col-md-4 col-sm-3">
+            <ul class="footer-list">
+              <li><a href="Assets/faqs.html">FAQ</a></li>
+              <li><a href="Assets/privacy-policy.html">Privacy Policy</a></li>
+              <li>
+                <div class="dropup">
+                  <a href="#" class="dropbtn">Blog & Articles</a>
+                  <div class="dropup-content">
+                    <a href="Assets/blog.html">News</a>
+                    <a href="Assets/blog.html">Interviews</a>
+
+                  </div>
+                </div>
+
+              </li>
+              <li><a href="Assets/press-and-media.html">Press &amp; Media</a></li>
+              <li>
+                <div class="dropup">
+                  <a href="#" class="dropbtn">Jobs</a>
+                  <div class="dropup-content">
+                    <a href="Assets/jobs.html">Jobs Seekers</a>
+                    <a href="Assets/jobs.html">Employers</a>
+
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="dropup">
+                  <a class="dropbtn" href="#">Tools & Resources <br> (Free Download)</a>
+                  <div class="dropup-content">
+                    <a href="Assets/tools-and-resources.html">White Paper</a>
+                    <a href="Assets/tools-and-resources.html">Articles</a>
+
+                  </div>
+                </div>
+              </li>
+              <li><a href="#">Chapters</a></li>
+
+            </ul>
+
+          </div>
+          <div class="col-md-4  col-sm-3">
+            <div class="login"><a href="#">Login</a></div>
+
+          </div>
+          <div class="col-md-4 col-sm-3">
+            <ul class="social">
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+
+
+            </ul>
+
+          </div>
+
+
+        </div>
+
+      </footer>
+    </div>
+
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
